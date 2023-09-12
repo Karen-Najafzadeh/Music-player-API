@@ -2,7 +2,7 @@
 # Music Player API 📝    
 This project is a music player API which i wrote for practicing. A program to list, create and manipualte musics and playlists for different users. it may seem to be super simple but it's just the beginning and will be updated overtime 
 
-## technologies used
+## technologies used 🦾🤖
 
 ![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=for-the-badge&logo=django&logoColor=white&color=ff1709&labelColor=gray)
 
@@ -17,7 +17,7 @@ This project is a music player API which i wrote for practicing. A program to li
 ## How to launch the project  
 To deploy this project clone it on your machine.
 
-First of all you need to create a virtual environment and install the dipendecies there
+First of all you need to create a virtual environment in the directory and install the dipendecies there
 
 This is my favourite way of doing it
 
@@ -28,16 +28,28 @@ This is my favourite way of doing it
 
 Next, activate the environment
 
-
+on windows:
 ```bash
   .\your_venv_name\Scripts\activate
 ``` 
-
+on linux:
+```bash
+  source\your_venv_name\bin\activate
+``` 
 Then go ahead and install the essential requirements for this project
 
 
 ```bash
   pip install -r requirements.txt
+```  
+
+
+Finally you need to apply the migrations to create a database
+```bash
+  python manage.py makemigrations
+```  
+```bash
+  python manage.py migrate
 ```  
 
 Now you're good to go. just run the project with this command
@@ -46,4 +58,9 @@ Now you're good to go. just run the project with this command
 ```bash
   python manage.py runserver
 ```  
-I have a little database where i've added some primary data. Now if you like you can drop the database and create your own, it's totally ok.
+
+
+If you prefer to use another database like PostgreSQL or MySQL it's totally fine
+
+# Developement
+this project is still under developement and not fully compeleted and will be updated reguallary over time
