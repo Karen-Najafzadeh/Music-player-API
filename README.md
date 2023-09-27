@@ -14,6 +14,10 @@ This project is a music player API which i wrote for practicing. A program to li
 
 ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
+# important
+
+As I've used JWT for authentication, some actions of this project requires JWT tokens for authenticating users so you have to modify HTTP headers manually. I personally use [ModHeader - Modify HTTP headers](https://chrome.google.com/webstore/detail/modheader-modify-http-hea/idgpnmonknjnojddfkpgkljpfnnfcklj) chrome extension.
+
 ## How to launch the project  
 To deploy this project clone it on your machine.
 
