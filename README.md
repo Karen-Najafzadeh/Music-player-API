@@ -1,6 +1,6 @@
 
 # Music Player API 📝    
-This project is a music player API which i wrote for practicing. A program to list, create and manipualte musics and playlists for different users. it may seem to be super simple but it's just the beginning and will be updated overtime 
+This project is a music player API which i wrote for practicing. A program to list, create and manipulate musics and playlists for different users. it may seem to be super simple but it's just the beginning and will be updated overtime 
 
 ## technologies used 🦾🤖
 
